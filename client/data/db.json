@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "username1": "thej",
+      "semail1": "cqunincyi@gmail.com",
+      "spassword": "123",
+      "id": 1
+    },
+    {
+      "username1": "thejas",
+      "semail1": "cqunyuyincyi@gmail.com",
+      "spassword": "1234",
+      "id": 2
+    },
+    {
+      "username1": "thej",
+      "semail1": "cqunincyi@gmail.com",
+      "spassword": "123",
+      "id": 5
+    }
+  ]
+}

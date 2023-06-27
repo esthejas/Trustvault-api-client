@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    cursor: default;
+}
+.vi_container{
+    font-size: 20px;
+    margin: 1em 2.5em;
+    background-color:#ebe9f5;
+    padding: 1em 1.5em;
+    padding-bottom: 2em;
+    border-radius: 15px;
+    border: 3px solid #e0dcf2;
+}
+.vi_title{
+    text-align: center;
+    font-size: 50px;
+    color: #5a1ceb;
+}
+.vi_button{
+    background-color: #1c6beb;
+    border: none;
+    color: aliceblue;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 1em;
+    transform: translateX(1175%);
+}
+.vi_sub_title{
+    color: #411b8e;
+    font-size: 30px;
+    margin-bottom:0.5em ;
+}
+.vi_n_sub_title{
+    color: #521788;
+    font-size: 30px;
+    margin-bottom:0.5em ;
+}
+.vi_desc_container{
+    padding: 1.5em;
+    margin-top: 2em;
+    border-radius: 5px;
+    background-color:#ded2e6;
+    color: #913dce;
+}
+
+.vi_n_container{
+   background-color: #b9c7e1;
+   padding: 1.5em;
+   border-radius: 5px;  
+}
+.vi_n_details{
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+}
+.vi_n_detail{
+    display: flex;
+    margin: 0.5em 0em;
+    color: #690af7;
+}
+.vi_n_heading{
+    color: #2929ba;
+    margin-right: 0.5em;
+}
+.vi_data_container{
+    padding: 1.5em;
+    border-radius: 5px;
+    background-color:#e4d6ee;
+    color: #913dce;
+}

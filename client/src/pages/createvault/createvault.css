@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    cursor: default;
+}
+.v_heading{
+    text-align: center;
+    margin: auto;
+    color: blueviolet;
+}
+.v_container{
+    margin: 4em 0em;
+    font-size: 18px;
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vaultcontainer{
+    border:3px solid #b86cef;
+    background-color: #e8dfef;
+    width: 70%;
+    min-height: 500px;
+    border-radius: 4%;
+    padding: 2em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.v_details{
+    font-size: 18px;
+    cursor: text;
+    border-radius: 10px;
+    border: none;
+    margin:0em 1em;
+    height: 2em;
+    
+}
+.v_details_titles{
+    color: #913dce;
+}
+.cv_button{
+    background-color: #045DE9;
+    margin-top: 2em;
+    padding: 1em;
+    border: none;
+    color: aliceblue;
+    border-radius: 15px;
+    cursor: pointer;
+    transform: translateX(650%);
+    font-size: 17px;
+}
+.v_desc{
+    min-height: 4em;
+    width: 79.5%;
+    padding: 0.5em;
+}
+.v_data{
+    padding: 0.5em;
+  width: 90%;
+}
+.n_details{
+    display: flex;
+    flex-direction: column;
+}
+.n_container{
+    display: flex;
+    flex-direction: row;
+}
+.add_button{
+    cursor: pointer;
+    border: none;
+    color: aliceblue;
+    background-color: #913dce;
+    width: 16%;
+    padding: 0.7em 0.3em;
+    border-radius: 15px;
+    font-size: 17px;
+    transform: translateX(500%);
+}
+.v_details::placeholder{
+    text-align: center;
+}
+.d_icon{
+    cursor: pointer;
+    height: 70%;
+    margin-top: 0.3em;
+}

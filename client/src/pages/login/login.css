@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    cursor: default;
+    /* color: white; */
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(340deg, #b86cef,#045DE9);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rotated {
+    
+    transform: rotateY(-180deg);
+  }
+.icon{
+    width: 9.5%;
+    margin: 0.75em;
+  
+}
+.block{
+    width: 50%;
+    position: absolute;
+}
+.title{
+    display: flex;
+    /* flex-direction: column; */
+    transform: translateY(-100%);
+    transform: translateX(15%);
+}
+.titlename{
+    color: rgb(245, 249, 250);
+    font-size: 4em;
+    font-stretch: expanded;
+}
+.subtitle{
+    color: aliceblue;
+    margin: 7.25em;
+    padding: 2em;
+    letter-spacing: 0.085em;
+    font-size: 1.35em;
+}
+
+.ok {
+    position: absolute;
+    transform: translate(180%,-60%);
+    margin: 10% 25%;
+    padding: 2.5em 1.5em;
+    border-radius: 7%;
+    border: rgb(120, 120, 200) solid 1px;
+    width: 55%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;  
+    backface-visibility: hidden;
+}
+
+.image{
+    margin: 5% 7%;
+    border-radius: 50%;
+    transform: translateY(20%);
+}
+label{
+    display: flex;
+    padding: 1em;
+}
+.input{
+    cursor: text;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #111010;
+    font-size: 1.25em;
+}
+.ls_title{
+    text-align: center;
+    font-size: 2em;
+    color: #202224;
+}
+.button{
+    width: 40%;
+   margin:  1.5em 5em;
+   padding: 0.4em 0.5em ;
+   border-radius: 15%;
+   font-size: 1.25em;
+   color: white;
+   cursor: pointer;
+   background-color: rgb(31, 183, 253);
+   border: 2px solid rgb(0, 89, 255);
+}
+.button:hover{
+    background-color: #b86cef;
+}
+.logicons{
+    width: 10%;
+    margin: 0.725em;
+}
+.movetologin{
+    display: flex;
+    margin: 0em 3.1em;
+}
+.movetosignup{
+    display: flex;
+    margin: 2em 3.8em;
+}
+.log{
+    padding: 0em 0.5em;
+    color: #045DE9;
+    cursor: pointer;
+}
+.sign{
+  padding: 0em 0.4em;
+    color: #045DE9;
+    cursor: pointer;
+}
+.forgetpass{
+    margin: 1em 4em;
+    color: #045DE9;
+    text-align: center;
+}
+.error{
+    color: red;
+}
