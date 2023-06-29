@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    cursor: default;
+}
+.otpcontainer{
+    background-color: rgb(223, 242, 236);
+}
+.otpcardcontainer{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2em;
+}
+
+.icon{
+    height: 5em;
+    width: 5em;
+}
+
+.otpcard {
+    background-color: rgb(246, 240, 234);
+    min-height: 20em;
+    width: 35em;
+    border: 1px solid black;
+    box-shadow: 2px 4px 15px black;
+    border-radius: 15px;
+    font-family: "McLaren", cursive;
+    color: black;
+    z-index: +2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .otpcardheading {
+    background-color: #fdcb6e;
+    background-color: gold;
+    transform: rotate(2deg);
+    color: black;
+    padding: 4px;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  }
+
+  .otpheading{
+    font-size: 3em;
+    font-stretch: expanded;
+    color: #0845a5;
+  }
+
+  .otpsubheading{
+    color: #1e51a2;
+    letter-spacing: 0.085em;
+    font-size: 1.35em;
+    margin-left: 1.5em ;
+  }
+  
+  .otpemail {
+    height: 3rem;
+    width: 20rem;
+    font-family: "McLaren", cursive;
+    padding-left: 2em;
+    font-size: medium;
+    border-radius: 12px;
+    background-color: white;
+  }
+  
+  .sendotp {
+    height: 3rem;
+    width: 10rem;
+    font-family: "McLaren", cursive;
+    font-size: medium;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px grey;
+    background-color: #045de9;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+  }

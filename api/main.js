@@ -34,10 +34,10 @@ app.get("/", (req, res) => {
   res.status(200).send("Server is up and running!!");
 });
 
-app.use("/auth", authRoutes);
-app.use("/vault", vaultRoutes);
-app.use("/cron",cronRoutes)
-app.use("/nominee",nomineeRoutes)
+app.use("/api/auth", authRoutes);
+app.use("/api/vault", vaultRoutes);
+app.use("/api/cron",cronRoutes)
+app.use("/api/nominee",nomineeRoutes)
 
 cronJob.checkUser();
 cronJob.checkUserP2();
