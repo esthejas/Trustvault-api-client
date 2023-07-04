@@ -76,7 +76,7 @@ exports.otpVerify = (req, res) => {
         error: "Internal Server Occurred",
       });
     }
-
+    
     const o_id = decoded.o_id;
 
     let otp = await client.query(
@@ -119,6 +119,7 @@ exports.vaultData = async (req, res) => {
     let vault_data = await client.query(
       `SELECT * FROM vaults WHERE v_id = '${v_id}';`
     );
+    console.log(vault_data);
     vault_data = vault_data.rows[0];
     vault_data = vault_data.data;
 
